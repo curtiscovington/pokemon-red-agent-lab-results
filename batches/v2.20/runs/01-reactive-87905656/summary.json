@@ -1,0 +1,70 @@
+{
+  "model": "qwen3.8-flash-next:iq4_nl",
+  "policy": "reactive",
+  "seed": 7000,
+  "block": 1,
+  "duration_seconds": 3600,
+  "navigation": true,
+  "bounded_skills": true,
+  "integrated_controls": true,
+  "persistent_memory": true,
+  "durable_evidence": true,
+  "memory_mode": "evidence",
+  "decision_matrix": true,
+  "objective_controller": true,
+  "action_only": true,
+  "staged_goals": true,
+  "persistent_walk": true,
+  "progress_control": false,
+  "navigation_revision": "boundary-counter-interactions-v3",
+  "run_id": "01-reactive-87905656",
+  "status": "interrupted",
+  "actions": 209,
+  "controller_inputs": 1429,
+  "navigation_actions": 47,
+  "navigation_requests": 48,
+  "zero_input_navigation": 0,
+  "stale_actions": 143,
+  "attempts": 353,
+  "invalid": 0,
+  "valid_responses": 353,
+  "errors": 0,
+  "input_tokens": 311263,
+  "output_tokens": 3290,
+  "milestones": {
+    "party_observed": {
+      "elapsed": 134.0249091089936,
+      "value": true,
+      "capture": "frames/000022.png"
+    },
+    "provisional_has_parcel": {
+      "elapsed": 566.2069494639873,
+      "value": true,
+      "capture": "frames/000116.png"
+    },
+    "provisional_has_pokedex": {
+      "elapsed": 901.6067817810108,
+      "value": true,
+      "capture": "frames/000164.png"
+    }
+  },
+  "load_warmup_seconds": 23.64734598295763,
+  "observed_emulated_frames": 132929,
+  "max_same_position_observations": 41,
+  "elapsed_seconds": 2255.8467817250057,
+  "overshoot_seconds": 0,
+  "final_evidence": {
+    "party_observed": true,
+    "badges_observed": [],
+    "provisional_has_pokedex": true,
+    "provisional_has_parcel": true,
+    "bag": []
+  },
+  "unique_positions": 422,
+  "valid_action_rate": 1.0,
+  "actions_per_minute": 5.558888175202611,
+  "latency_p50_seconds": 1.7492375880246982,
+  "latency_p95_seconds": 2.108539545966778,
+  "model_recoveries": 0,
+  "resource_affected": false
+}

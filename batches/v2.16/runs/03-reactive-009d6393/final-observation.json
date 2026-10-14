@@ -1,0 +1,507 @@
+{
+  "metadata": {
+    "game": "Pokemon Red/Blue (USA)",
+    "timestamp": "2026-10-13T03:05:40.324421+00:00",
+    "frame_count": null
+  },
+  "player": {
+    "name": "AAAAAAA",
+    "rival_name": "AAAAAAA",
+    "money": 970,
+    "badges": [],
+    "badge_count": 0,
+    "position": {
+      "y": 3,
+      "x": 2
+    },
+    "facing": "left",
+    "play_time": "256:00:00"
+  },
+  "party": [
+    {
+      "species_id": 176,
+      "dex_number": 4,
+      "species": "Charmander",
+      "nickname": "CHARMANDER",
+      "level": 12,
+      "hp": 24,
+      "max_hp": 33,
+      "status": "OK",
+      "types": [
+        "Fire"
+      ],
+      "moves": [
+        {
+          "id": 10,
+          "name": "Scratch",
+          "pp": 23,
+          "pp_up": 0
+        },
+        {
+          "id": 45,
+          "name": "Growl",
+          "pp": 40,
+          "pp_up": 0
+        },
+        {
+          "id": 52,
+          "name": "Ember",
+          "pp": 12,
+          "pp_up": 0
+        }
+      ],
+      "stats": {
+        "attack": 21,
+        "defense": 18,
+        "speed": 23,
+        "special": 20
+      },
+      "ot_id": 12663,
+      "experience": 1218
+    }
+  ],
+  "bag": [
+    {
+      "id": 11,
+      "item": "Antidote",
+      "quantity": 1
+    }
+  ],
+  "battle": {
+    "in_battle": false,
+    "type": "none"
+  },
+  "dialog": {
+    "active": false,
+    "text_box_id": 1,
+    "joy_ignore": 0,
+    "engine_active": false
+  },
+  "map": {
+    "map_id": 58,
+    "map_name": "Pewter Pokecenter"
+  },
+  "flags": {
+    "has_pokedex": true,
+    "has_oaks_parcel": true,
+    "pokedex_owned": 1,
+    "pokedex_seen": 7,
+    "badges": [],
+    "badge_count": 0
+  },
+  "collision": {
+    "tileset": 6,
+    "walkable": [
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false
+      ]
+    ],
+    "tile_ids": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        16,
+        40,
+        75,
+        40,
+        19,
+        16,
+        40,
+        75
+      ],
+      [
+        0,
+        0,
+        16,
+        72,
+        22,
+        26,
+        17,
+        16,
+        72,
+        22
+      ],
+      [
+        0,
+        0,
+        20,
+        24,
+        24,
+        24,
+        24,
+        20,
+        24,
+        24
+      ],
+      [
+        0,
+        0,
+        17,
+        17,
+        17,
+        17,
+        17,
+        17,
+        17,
+        17
+      ],
+      [
+        0,
+        0,
+        52,
+        60,
+        17,
+        17,
+        17,
+        17,
+        17,
+        17
+      ],
+      [
+        0,
+        0,
+        42,
+        26,
+        17,
+        17,
+        17,
+        17,
+        17,
+        17
+      ],
+      [
+        0,
+        0,
+        48,
+        48,
+        17,
+        17,
+        17,
+        17,
+        48,
+        48
+      ],
+      [
+        0,
+        0,
+        50,
+        50,
+        17,
+        28,
+        28,
+        17,
+        50,
+        50
+      ]
+    ],
+    "player_cell": "E5",
+    "ascii": "   A B C D E F G H I J\n 1 # # # # # # # # # #\n 2 # # # # # # # # # #\n 3 # # # # # . . # # #\n 4 # # # # # # # # # #\n 5 # # . . @ . . . . .\n 6 # # # . . . . . . .\n 7 # # # . . . . . . .\n 8 # # # # . . . . # #\n 9 # # # # . . . . # #\n\n@ you (E5)   . walkable   # blocked\nup=row-1 down=row+1 left=col-1 right=col+1"
+  },
+  "interface": {
+    "kind": "overworld",
+    "text": [],
+    "navigation_available": true,
+    "controls": "Choose a local destination or a button action."
+  },
+  "navigation": {
+    "available": true,
+    "map_id": 58,
+    "walkable": [
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false
+      ]
+    ],
+    "targets": [
+      {
+        "id": "58-exit-1",
+        "label": "Exit 1",
+        "kind": "exit",
+        "x": 3,
+        "y": 7
+      },
+      {
+        "id": "58-exit-2",
+        "label": "Exit 2",
+        "kind": "exit",
+        "x": 4,
+        "y": 7
+      },
+      {
+        "id": "58-object-1",
+        "label": "Person 1",
+        "kind": "interact",
+        "x": 3,
+        "y": 1
+      },
+      {
+        "id": "58-object-2",
+        "label": "Person 2",
+        "kind": "interact",
+        "x": 11,
+        "y": 7
+      },
+      {
+        "id": "58-object-3",
+        "label": "Person 3",
+        "kind": "interact",
+        "x": 1,
+        "y": 3
+      },
+      {
+        "id": "58-object-4",
+        "label": "Person 4",
+        "kind": "interact",
+        "x": 11,
+        "y": 2
+      }
+    ],
+    "jumps": []
+  },
+  "capture": {
+    "frame": 649482,
+    "synchronized": true,
+    "screen_hash": "c82b2e2f28ef94d04dc297d5d3221c121f9a9cf5780efa1e51f0af52f92a6822"
+  }
+}

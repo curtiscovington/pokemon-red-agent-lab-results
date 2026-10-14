@@ -1,0 +1,339 @@
+{
+  "metadata": {
+    "game": "Pokemon Red/Blue (USA)",
+    "timestamp": "2026-10-14T01:53:55.202294+00:00",
+    "frame_count": null
+  },
+  "player": {
+    "name": "AAAAAAA",
+    "rival_name": "AAAAAAA",
+    "money": 2489,
+    "badges": [
+      "Boulder"
+    ],
+    "badge_count": 1,
+    "position": {
+      "y": 2,
+      "x": 4
+    },
+    "facing": "up",
+    "play_time": "256:00:00"
+  },
+  "party": [
+    {
+      "species_id": 176,
+      "dex_number": 4,
+      "species": "Charmander",
+      "nickname": "CHARMANDER",
+      "level": 14,
+      "hp": 11,
+      "max_hp": 35,
+      "status": "OK",
+      "types": [
+        "Fire"
+      ],
+      "moves": [
+        {
+          "id": 10,
+          "name": "Scratch",
+          "pp": 35,
+          "pp_up": 0
+        },
+        {
+          "id": 45,
+          "name": "Growl",
+          "pp": 40,
+          "pp_up": 0
+        },
+        {
+          "id": 52,
+          "name": "Ember",
+          "pp": 10,
+          "pp_up": 0
+        }
+      ],
+      "stats": {
+        "attack": 21,
+        "defense": 18,
+        "speed": 24,
+        "special": 23
+      },
+      "ot_id": 12663,
+      "experience": 1656
+    }
+  ],
+  "bag": [
+    {
+      "id": 234,
+      "item": "TM34",
+      "quantity": 1
+    }
+  ],
+  "battle": {
+    "in_battle": false,
+    "type": "none"
+  },
+  "dialog": {
+    "active": true,
+    "text_box_id": 1,
+    "joy_ignore": 0,
+    "engine_active": false
+  },
+  "map": {
+    "map_id": 54,
+    "map_name": "Pewter Gym"
+  },
+  "flags": {
+    "has_pokedex": true,
+    "has_oaks_parcel": true,
+    "pokedex_owned": 1,
+    "pokedex_seen": 12,
+    "badges": [
+      "Boulder"
+    ],
+    "badge_count": 1
+  },
+  "collision": {
+    "tileset": 7,
+    "walkable": [
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    ],
+    "tile_ids": [
+      [
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15
+      ],
+      [
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15
+      ],
+      [
+        23,
+        23,
+        23,
+        23,
+        23,
+        23,
+        23,
+        23,
+        23,
+        23
+      ],
+      [
+        23,
+        17,
+        17,
+        17,
+        17,
+        17,
+        17,
+        17,
+        17,
+        23
+      ],
+      [
+        23,
+        17,
+        17,
+        17,
+        17,
+        17,
+        17,
+        17,
+        17,
+        23
+      ],
+      [
+        23,
+        23,
+        23,
+        23,
+        17,
+        17,
+        23,
+        23,
+        23,
+        23
+      ],
+      [
+        124,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127
+      ],
+      [
+        124,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127
+      ],
+      [
+        125,
+        122,
+        122,
+        122,
+        122,
+        122,
+        122,
+        122,
+        122,
+        122
+      ]
+    ],
+    "player_cell": "E5",
+    "ascii": "   A B C D E F G H I J\n 1 # # # # # # # # # #\n 2 # # # # # # # # # #\n 3 # # # # # # # # # #\n 4 # . . . . . . . . #\n 5 # . . . @ . . . . #\n 6 # # # # . . # # # #\n 7 # # # # # # # # # #\n 8 # # # # # # # # # #\n 9 # # # # # # # # # #\n\n@ you (E5)   . walkable   # blocked\nup=row-1 down=row+1 left=col-1 right=col+1"
+  },
+  "interface": {
+    "kind": "dialogue",
+    "text": [
+      "There are all",
+      "kinds of trainers"
+    ],
+    "navigation_available": false,
+    "controls": "A advances or closes the text. Once it closes, choose a destination; pressing A again can reopen the same conversation."
+  },
+  "navigation": {
+    "targets": [],
+    "available": false
+  },
+  "capture": {
+    "frame": 1732236,
+    "synchronized": true,
+    "screen_hash": "c4719015d1be884a33b2c43093512955448c35cc6dc269ba08e3fa3c33c98b35"
+  }
+}

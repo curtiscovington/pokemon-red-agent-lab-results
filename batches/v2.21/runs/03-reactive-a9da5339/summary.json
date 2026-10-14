@@ -1,0 +1,85 @@
+{
+  "model": "qwen3.8-flash-next:iq4_nl",
+  "policy": "reactive",
+  "seed": 8001,
+  "block": 2,
+  "duration_seconds": 3600,
+  "navigation": true,
+  "bounded_skills": true,
+  "integrated_controls": true,
+  "persistent_memory": true,
+  "durable_evidence": true,
+  "memory_mode": "evidence",
+  "decision_matrix": true,
+  "objective_controller": true,
+  "action_only": true,
+  "staged_goals": true,
+  "persistent_walk": true,
+  "progress_control": true,
+  "navigation_revision": "bounded-warp-cycle-recovery-v4",
+  "run_id": "03-reactive-a9da5339",
+  "status": "completed",
+  "actions": 404,
+  "controller_inputs": 1920,
+  "navigation_actions": 101,
+  "navigation_requests": 102,
+  "zero_input_navigation": 0,
+  "stale_actions": 206,
+  "attempts": 611,
+  "invalid": 0,
+  "valid_responses": 611,
+  "errors": 0,
+  "input_tokens": 612610,
+  "output_tokens": 5576,
+  "milestones": {
+    "party_observed": {
+      "elapsed": 127.06908068602206,
+      "value": true,
+      "capture": "frames/000019.png"
+    },
+    "provisional_has_parcel": {
+      "elapsed": 483.23952018498676,
+      "value": true,
+      "capture": "frames/000091.png"
+    },
+    "provisional_has_pokedex": {
+      "elapsed": 768.6487600660184,
+      "value": true,
+      "capture": "frames/000128.png"
+    },
+    "badges_observed": {
+      "elapsed": 3503.138591091032,
+      "value": [
+        "Boulder"
+      ],
+      "capture": "frames/000599.png"
+    }
+  },
+  "load_warmup_seconds": 23.186759012984112,
+  "observed_emulated_frames": 214573,
+  "max_same_position_observations": 75,
+  "elapsed_seconds": 3600.191867713991,
+  "overshoot_seconds": 0.19186771399108693,
+  "final_evidence": {
+    "party_observed": true,
+    "badges_observed": [
+      "Boulder"
+    ],
+    "provisional_has_pokedex": true,
+    "provisional_has_parcel": true,
+    "bag": [
+      {
+        "id": 234,
+        "item": "TM34",
+        "quantity": 1
+      }
+    ]
+  },
+  "unique_positions": 649,
+  "valid_action_rate": 1.0,
+  "actions_per_minute": 6.732974488771244,
+  "latency_p50_seconds": 1.8607574629713781,
+  "latency_p95_seconds": 2.347497654031031,
+  "model_recoveries": 0,
+  "resource_affected": false
+}

@@ -1,0 +1,71 @@
+{
+  "model": "qwen3.8-flash-next:iq4_nl",
+  "policy": "reactive",
+  "seed": 6001,
+  "block": 2,
+  "duration_seconds": 3600,
+  "navigation": true,
+  "bounded_skills": true,
+  "integrated_controls": true,
+  "persistent_memory": true,
+  "durable_evidence": true,
+  "memory_mode": "evidence",
+  "decision_matrix": true,
+  "objective_controller": true,
+  "action_only": true,
+  "staged_goals": true,
+  "persistent_walk": true,
+  "progress_control": true,
+  "navigation_revision": "boundary-warps-v2",
+  "run_id": "03-reactive-fef5c27f",
+  "status": "completed",
+  "actions": 353,
+  "controller_inputs": 2170,
+  "navigation_actions": 237,
+  "navigation_requests": 238,
+  "zero_input_navigation": 0,
+  "stale_actions": 52,
+  "attempts": 406,
+  "invalid": 0,
+  "valid_responses": 406,
+  "errors": 0,
+  "input_tokens": 462375,
+  "output_tokens": 5251,
+  "milestones": {
+    "party_observed": {
+      "elapsed": 146.57035912299762,
+      "value": true,
+      "capture": "frames/000023.png"
+    },
+    "provisional_has_parcel": {
+      "elapsed": 571.0007569050067,
+      "value": true,
+      "capture": "frames/000101.png"
+    }
+  },
+  "load_warmup_seconds": 23.271090326015837,
+  "observed_emulated_frames": 213578,
+  "max_same_position_observations": 37,
+  "elapsed_seconds": 3600.0453923149616,
+  "overshoot_seconds": 0.04539231496164575,
+  "final_evidence": {
+    "party_observed": true,
+    "badges_observed": [],
+    "provisional_has_pokedex": false,
+    "provisional_has_parcel": true,
+    "bag": [
+      {
+        "id": 70,
+        "item": "Oak's Parcel",
+        "quantity": 1
+      }
+    ]
+  },
+  "unique_positions": 213,
+  "valid_action_rate": 1.0,
+  "actions_per_minute": 5.883259151457666,
+  "latency_p50_seconds": 2.127594356017653,
+  "latency_p95_seconds": 2.8537920949747786,
+  "model_recoveries": 0,
+  "resource_affected": false
+}

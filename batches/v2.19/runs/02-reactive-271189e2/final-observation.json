@@ -1,0 +1,329 @@
+{
+  "metadata": {
+    "game": "Pokemon Red/Blue (USA)",
+    "timestamp": "2026-10-13T10:08:43.659761+00:00",
+    "frame_count": null
+  },
+  "player": {
+    "name": "AAAAAAA",
+    "rival_name": "AAAAAAA",
+    "money": 3000,
+    "badges": [],
+    "badge_count": 0,
+    "position": {
+      "y": 2,
+      "x": 4
+    },
+    "facing": "up",
+    "play_time": "256:00:00"
+  },
+  "party": [
+    {
+      "species_id": 176,
+      "dex_number": 4,
+      "species": "Charmander",
+      "nickname": "CHARMANDER",
+      "level": 7,
+      "hp": 2,
+      "max_hp": 23,
+      "status": "OK",
+      "types": [
+        "Fire"
+      ],
+      "moves": [
+        {
+          "id": 10,
+          "name": "Scratch",
+          "pp": 16,
+          "pp_up": 0
+        },
+        {
+          "id": 45,
+          "name": "Growl",
+          "pp": 40,
+          "pp_up": 0
+        }
+      ],
+      "stats": {
+        "attack": 14,
+        "defense": 11,
+        "speed": 15,
+        "special": 12
+      },
+      "ot_id": 12663,
+      "experience": 304
+    }
+  ],
+  "bag": [
+    {
+      "id": 70,
+      "item": "Oak's Parcel",
+      "quantity": 1
+    }
+  ],
+  "battle": {
+    "in_battle": false,
+    "type": "none"
+  },
+  "dialog": {
+    "active": true,
+    "text_box_id": 1,
+    "joy_ignore": 0,
+    "engine_active": false
+  },
+  "map": {
+    "map_id": 193,
+    "map_name": "Route 22 Gate"
+  },
+  "flags": {
+    "has_pokedex": false,
+    "has_oaks_parcel": true,
+    "pokedex_owned": 1,
+    "pokedex_seen": 4,
+    "badges": [],
+    "badge_count": 0
+  },
+  "collision": {
+    "tileset": 12,
+    "walkable": [
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    ],
+    "tile_ids": [
+      [
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ],
+      [
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ],
+      [
+        0,
+        0,
+        0,
+        14,
+        59,
+        59,
+        14,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        50,
+        55,
+        56,
+        50,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        55,
+        56,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        55,
+        56,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        124,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127
+      ],
+      [
+        124,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127
+      ],
+      [
+        125,
+        122,
+        122,
+        122,
+        122,
+        122,
+        122,
+        122,
+        122,
+        122
+      ]
+    ],
+    "player_cell": "E5",
+    "ascii": "   A B C D E F G H I J\n 1 # # # # # # # # # #\n 2 # # # # # # # # # #\n 3 # # # # . . # # # #\n 4 . . . # . . # . . .\n 5 . . . . @ . . . . .\n 6 . . . . . . . . . .\n 7 # # # # # # # # # #\n 8 # # # # # # # # # #\n 9 # # # # # # # # # #\n\n@ you (E5)   . walkable   # blocked\nup=row-1 down=row+1 left=col-1 right=col+1"
+  },
+  "interface": {
+    "kind": "dialogue",
+    "text": [
+      "You don  have the",
+      "BOULDERBADGE yet!"
+    ],
+    "navigation_available": false,
+    "controls": "A advances or closes the text. Once it closes, choose a destination; pressing A again can reopen the same conversation."
+  },
+  "navigation": {
+    "targets": [],
+    "available": false
+  },
+  "capture": {
+    "frame": 432962,
+    "synchronized": true,
+    "screen_hash": "f1bde6f3d09483790d4606bdf933ba42154f2c9d0dcb8ea1d853d9d0a0af27ce"
+  }
+}

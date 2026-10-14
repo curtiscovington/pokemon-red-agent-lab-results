@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "first_observed_seconds": {
+    "starter_observed": 133.83960087504238,
+    "parcel_in_bag": 427.41441949101863,
+    "parcel_delivery_text": 647.0346081290045,
+    "pokedex_receipt_text": 683.8974394660327,
+    "forest_entered": 988.0311959610553,
+    "forest_north_gate": 2120.7296105730347,
+    "pewter_reached": 2184.586787401,
+    "pewter_gym_entered": 2311.417101264
+  },
+  "parcel_delivery_confirmed": true,
+  "delivery_bag_corroborated": true,
+  "repeated_nonbattle_dialogue_pages": 79,
+  "repeated_navigation_targets_within_objective": 34,
+  "reconsideration_120_seconds": {
+    "signals": 16,
+    "complete_windows": 13,
+    "censored_windows": 3,
+    "changed_action": 16,
+    "changed_context": 16,
+    "milestone_evidence": 2
+  },
+  "observed_seconds": 3600.0,
+  "timing_note": "Unreached milestones are censored; revisits and context changes are not proof of failure or success."
+}

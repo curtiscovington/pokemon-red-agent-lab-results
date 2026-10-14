@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "first_observed_seconds": {
+    "starter_observed": 158.61575323104626,
+    "parcel_in_bag": 558.5799624270294,
+    "parcel_delivery_text": 716.8882608410204,
+    "pokedex_receipt_text": 753.4986460380023,
+    "forest_entered": 1251.1851915430161
+  },
+  "parcel_delivery_confirmed": true,
+  "delivery_bag_corroborated": true,
+  "repeated_nonbattle_dialogue_pages": 139,
+  "repeated_navigation_targets_within_objective": 72,
+  "reconsideration_120_seconds": {
+    "signals": 3,
+    "complete_windows": 3,
+    "censored_windows": 0,
+    "changed_action": 3,
+    "changed_context": 3,
+    "milestone_evidence": 2
+  },
+  "observed_seconds": 3600.01,
+  "timing_note": "Unreached milestones are censored; revisits and context changes are not proof of failure or success."
+}

@@ -1,0 +1,119 @@
+{
+  "metadata": {
+    "game": "Pokemon Red/Blue (USA)",
+    "timestamp": "2026-10-12T09:25:16.254537+00:00",
+    "frame_count": null
+  },
+  "player": {
+    "name": "AAAAAAA",
+    "rival_name": "AAAAAAA",
+    "money": 793,
+    "badges": [],
+    "badge_count": 0,
+    "position": {
+      "y": 32,
+      "x": 11
+    },
+    "facing": "down",
+    "play_time": "256:00:00"
+  },
+  "party": [
+    {
+      "species_id": 176,
+      "dex_number": 4,
+      "species": "Charmander",
+      "nickname": "CHARMANDER",
+      "level": 9,
+      "hp": 27,
+      "max_hp": 27,
+      "status": "OK",
+      "types": [
+        "Fire"
+      ],
+      "moves": [
+        {
+          "id": 10,
+          "name": "Scratch",
+          "pp": 34,
+          "pp_up": 0
+        },
+        {
+          "id": 45,
+          "name": "Growl",
+          "pp": 40,
+          "pp_up": 0
+        },
+        {
+          "id": 52,
+          "name": "Ember",
+          "pp": 23,
+          "pp_up": 0
+        }
+      ],
+      "stats": {
+        "attack": 16,
+        "defense": 14,
+        "speed": 19,
+        "special": 15
+      },
+      "ot_id": 12663,
+      "experience": 557
+    }
+  ],
+  "bag": [],
+  "battle": {
+    "in_battle": true,
+    "type": "wild",
+    "enemy": {
+      "species_id": 165,
+      "dex_number": 19,
+      "species": "Rattata",
+      "level": 3,
+      "hp": 5,
+      "max_hp": 15,
+      "status": "OK",
+      "moves": [
+        "Tackle",
+        "Tail Whip"
+      ]
+    }
+  },
+  "dialog": {
+    "active": false,
+    "text_box_id": 1,
+    "joy_ignore": 0,
+    "engine_active": false
+  },
+  "map": {
+    "map_id": 12,
+    "map_name": "Route 1"
+  },
+  "flags": {
+    "has_pokedex": false,
+    "has_oaks_parcel": false,
+    "pokedex_owned": 1,
+    "pokedex_seen": 4,
+    "badges": [],
+    "badge_count": 0
+  },
+  "interface": {
+    "kind": "battle",
+    "text": [
+      "RATTATA",
+      "CHARMANDER",
+      "Enemy RATTATA",
+      "used TAIL WHIP!"
+    ],
+    "navigation_available": false,
+    "controls": "Use battle controls."
+  },
+  "navigation": {
+    "targets": [],
+    "available": false
+  },
+  "capture": {
+    "frame": 1082608,
+    "synchronized": true,
+    "screen_hash": "b337e3ba98e5c67f2875ddd09285956ec340a1181551d3e5054564ed95a741f3"
+  }
+}

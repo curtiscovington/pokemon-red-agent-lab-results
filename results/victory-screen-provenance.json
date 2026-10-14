@@ -1,0 +1,25 @@
+{
+  "capture_source": "Read-only current broadcast frame after final batch completion; no game input sent.",
+  "run": "08-reactive-dd1aa736",
+  "batch": "20261013-105028-575ffb",
+  "map": {
+    "map_id": 54,
+    "map_name": "Pewter Gym"
+  },
+  "position": {
+    "y": 2,
+    "x": 4
+  },
+  "badges": [
+    "Boulder"
+  ],
+  "bag": [
+    {
+      "id": 234,
+      "item": "TM34",
+      "quantity": 1
+    }
+  ],
+  "screen_sha256": "c4719015d1be884a33b2c43093512955448c35cc6dc269ba08e3fa3c33c98b35",
+  "caption_scope": "Post-victory conversation, not the badge-receipt frame."
+}

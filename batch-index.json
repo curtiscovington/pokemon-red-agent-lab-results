@@ -1,0 +1,302 @@
+[
+  {
+    "version": "v2.14",
+    "batch": "20261011-212309-b75445",
+    "runs": [
+      {
+        "run": "01-reactive-66d609c2",
+        "status": "completed",
+        "elapsed_seconds": 3600.002195772977,
+        "seed": 3000
+      },
+      {
+        "run": "02-reactive-522b90f8",
+        "status": "completed",
+        "elapsed_seconds": 3600.0014088239986,
+        "seed": 3000
+      },
+      {
+        "run": "03-reactive-f53c756e",
+        "status": "completed",
+        "elapsed_seconds": 3600.002725989005,
+        "seed": 3000
+      },
+      {
+        "run": "04-reactive-655fbb5e",
+        "status": "completed",
+        "elapsed_seconds": 3600.0129274780047,
+        "seed": 3000
+      },
+      {
+        "run": "05-reactive-61b747df",
+        "status": "completed",
+        "elapsed_seconds": 3600.0015847070026,
+        "seed": 3001
+      },
+      {
+        "run": "06-reactive-466deeb1",
+        "status": "completed",
+        "elapsed_seconds": 3600.0125643300125,
+        "seed": 3001
+      },
+      {
+        "run": "07-reactive-0528a966",
+        "status": "completed",
+        "elapsed_seconds": 3600.011406798003,
+        "seed": 3001
+      },
+      {
+        "run": "08-reactive-681c4ed9",
+        "status": "completed",
+        "elapsed_seconds": 3600.0010798280127,
+        "seed": 3001
+      }
+    ],
+    "archive_bytes": 20737208,
+    "archive_sha256": "55c47dae50d7841695f3facb5c352393a400a92b70c0cdd8eb84577176192a82",
+    "archive": "batches/v2.14/logs.tar.gz"
+  },
+  {
+    "version": "v2.15",
+    "batch": "20261012-082345-7459db",
+    "runs": [
+      {
+        "run": "01-reactive-f41bbce8",
+        "status": "completed",
+        "elapsed_seconds": 3600.0006007860065,
+        "seed": 4000
+      },
+      {
+        "run": "02-reactive-54650491",
+        "status": "completed",
+        "elapsed_seconds": 3600.146438702999,
+        "seed": 4000
+      },
+      {
+        "run": "03-reactive-3df4c6d7",
+        "status": "completed",
+        "elapsed_seconds": 3600.2063301900052,
+        "seed": 4001
+      },
+      {
+        "run": "04-reactive-b36f68eb",
+        "status": "completed",
+        "elapsed_seconds": 3600.1204560750048,
+        "seed": 4001
+      },
+      {
+        "run": "05-reactive-62f1cdad",
+        "status": "completed",
+        "elapsed_seconds": 3600.0115158199915,
+        "seed": 4002
+      },
+      {
+        "run": "06-reactive-268d2cfa",
+        "status": "completed",
+        "elapsed_seconds": 3600.2355727709946,
+        "seed": 4002
+      },
+      {
+        "run": "07-reactive-fc758106",
+        "status": "completed",
+        "elapsed_seconds": 3600.0099386619986,
+        "seed": 4003
+      },
+      {
+        "run": "08-reactive-c56722d9",
+        "status": "completed",
+        "elapsed_seconds": 3600.0107354130014,
+        "seed": 4003
+      }
+    ],
+    "archive_bytes": 21928363,
+    "archive_sha256": "093bead3e5893de8107219b82c61b1b0f0836fbbadef2e59ea529eff93c1dde4",
+    "archive": "batches/v2.15/logs.tar.gz"
+  },
+  {
+    "version": "v2.16",
+    "batch": "20261012-170425-432bbf",
+    "runs": [
+      {
+        "run": "01-reactive-77de9e82",
+        "status": "completed",
+        "elapsed_seconds": 3600.00291699596,
+        "seed": 4000
+      },
+      {
+        "run": "02-reactive-e10d2cba",
+        "status": "completed",
+        "elapsed_seconds": 3600.017965621024,
+        "seed": 4000
+      },
+      {
+        "run": "03-reactive-009d6393",
+        "status": "completed",
+        "elapsed_seconds": 3600.009587829991,
+        "seed": 4001
+      },
+      {
+        "run": "04-reactive-e4ff8e48",
+        "status": "completed",
+        "elapsed_seconds": 3600.0020975760417,
+        "seed": 4001
+      },
+      {
+        "run": "05-reactive-eed6e8db",
+        "status": "completed",
+        "elapsed_seconds": 3600.033615132037,
+        "seed": 4002
+      },
+      {
+        "run": "06-reactive-473bdd13",
+        "status": "completed",
+        "elapsed_seconds": 3600.008842307958,
+        "seed": 4002
+      },
+      {
+        "run": "07-reactive-405fc1d1",
+        "status": "completed",
+        "elapsed_seconds": 3600.0012333810446,
+        "seed": 4003
+      },
+      {
+        "run": "08-reactive-e9714296",
+        "status": "completed",
+        "elapsed_seconds": 3600.011258953018,
+        "seed": 4003
+      }
+    ],
+    "archive_bytes": 23050666,
+    "archive_sha256": "36c13536389502818ce8ad2d37540908a778f4c9a42d8057021e34b2de7d4693",
+    "archive": "batches/v2.16/logs.tar.gz"
+  },
+  {
+    "version": "v2.19",
+    "batch": "20261013-010754-95c758",
+    "runs": [
+      {
+        "run": "01-reactive-52fbfeaa",
+        "status": "completed",
+        "elapsed_seconds": 3600.001943650015,
+        "seed": 6000
+      },
+      {
+        "run": "02-reactive-271189e2",
+        "status": "completed",
+        "elapsed_seconds": 3600.0014854290057,
+        "seed": 6000
+      },
+      {
+        "run": "03-reactive-fef5c27f",
+        "status": "completed",
+        "elapsed_seconds": 3600.0453923149616,
+        "seed": 6001
+      },
+      {
+        "run": "04-reactive-43f195fe",
+        "status": "completed",
+        "elapsed_seconds": 3600.1394257319625,
+        "seed": 6001
+      },
+      {
+        "run": "05-reactive-8617ba33",
+        "status": "completed",
+        "elapsed_seconds": 3600.2754457940464,
+        "seed": 6002
+      },
+      {
+        "run": "06-reactive-f651c61a",
+        "status": "completed",
+        "elapsed_seconds": 3600.0100739749614,
+        "seed": 6002
+      },
+      {
+        "run": "07-reactive-0b9a132d",
+        "status": "completed",
+        "elapsed_seconds": 3600.0104474099935,
+        "seed": 6003
+      },
+      {
+        "run": "08-reactive-e49104cd",
+        "status": "completed",
+        "elapsed_seconds": 3600.0014971979544,
+        "seed": 6003
+      }
+    ],
+    "archive_bytes": 19072068,
+    "archive_sha256": "9cf571ea709cbff2a0d63a97a39e2797b81bb6582971e923bf4b997827b145b4",
+    "archive": "batches/v2.19/logs.tar.gz"
+  },
+  {
+    "version": "v2.20",
+    "batch": "20261013-100905-cacc2d",
+    "runs": [
+      {
+        "run": "01-reactive-87905656",
+        "status": "interrupted",
+        "elapsed_seconds": 2255.8467817250057,
+        "seed": 7000
+      }
+    ],
+    "archive_bytes": 1875641,
+    "archive_sha256": "bf3306cd15bf2dd4fb8945d49f8b7c0a9bca2115babb752638e7ffce0a2b6213",
+    "archive": "batches/v2.20/logs.tar.gz"
+  },
+  {
+    "version": "v2.21",
+    "batch": "20261013-105028-575ffb",
+    "runs": [
+      {
+        "run": "01-reactive-299e5504",
+        "status": "completed",
+        "elapsed_seconds": 3600.0009139710455,
+        "seed": 8000
+      },
+      {
+        "run": "02-reactive-1f47de99",
+        "status": "completed",
+        "elapsed_seconds": 3600.0017245989875,
+        "seed": 8000
+      },
+      {
+        "run": "03-reactive-a9da5339",
+        "status": "completed",
+        "elapsed_seconds": 3600.191867713991,
+        "seed": 8001
+      },
+      {
+        "run": "04-reactive-bafee48d",
+        "status": "completed",
+        "elapsed_seconds": 3600.0452992150094,
+        "seed": 8001
+      },
+      {
+        "run": "05-reactive-8df9229a",
+        "status": "completed",
+        "elapsed_seconds": 3600.0315323909745,
+        "seed": 8002
+      },
+      {
+        "run": "06-reactive-b82a12d0",
+        "status": "completed",
+        "elapsed_seconds": 3600.3303627709975,
+        "seed": 8002
+      },
+      {
+        "run": "07-reactive-61ce49e4",
+        "status": "completed",
+        "elapsed_seconds": 3600.0024095239933,
+        "seed": 8003
+      },
+      {
+        "run": "08-reactive-dd1aa736",
+        "status": "completed",
+        "elapsed_seconds": 3600.001796163968,
+        "seed": 8003
+      }
+    ],
+    "archive_bytes": 23991164,
+    "archive_sha256": "6b5e7e3a6aae13108d3bc2078a5001d8150498d3804dfc23c2050e34906ab16e",
+    "archive": "batches/v2.21/logs.tar.gz"
+  }
+]
