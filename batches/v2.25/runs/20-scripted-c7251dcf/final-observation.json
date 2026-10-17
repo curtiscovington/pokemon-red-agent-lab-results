@@ -1,0 +1,119 @@
+{
+  "metadata": {
+    "game": "Pokemon Red/Blue (USA)",
+    "timestamp": "2026-10-16T16:27:03.100578+00:00",
+    "frame_count": null
+  },
+  "player": {
+    "name": "AAAAAAA",
+    "rival_name": "AAAAAAA",
+    "money": 617,
+    "badges": [],
+    "badge_count": 0,
+    "position": {
+      "y": 2,
+      "x": 4
+    },
+    "facing": "up",
+    "play_time": "256:00:00"
+  },
+  "party": [
+    {
+      "species_id": 176,
+      "dex_number": 4,
+      "species": "Charmander",
+      "nickname": "CHARMANDER",
+      "level": 13,
+      "hp": 27,
+      "max_hp": 37,
+      "status": "OK",
+      "types": [
+        "Fire"
+      ],
+      "moves": [
+        {
+          "id": 10,
+          "name": "Scratch",
+          "pp": 35,
+          "pp_up": 0
+        },
+        {
+          "id": 45,
+          "name": "Growl",
+          "pp": 40,
+          "pp_up": 0
+        },
+        {
+          "id": 52,
+          "name": "Ember",
+          "pp": 21,
+          "pp_up": 0
+        }
+      ],
+      "stats": {
+        "attack": 20,
+        "defense": 17,
+        "speed": 26,
+        "special": 19
+      },
+      "ot_id": 12663,
+      "experience": 1416
+    }
+  ],
+  "bag": [],
+  "battle": {
+    "in_battle": true,
+    "type": "trainer",
+    "enemy": {
+      "species_id": 169,
+      "dex_number": 74,
+      "species": "Geodude",
+      "level": 12,
+      "hp": 13,
+      "max_hp": 33,
+      "status": "OK",
+      "moves": [
+        "Tackle",
+        "Defense Curl"
+      ]
+    }
+  },
+  "dialog": {
+    "active": false,
+    "text_box_id": 1,
+    "joy_ignore": 0,
+    "engine_active": false
+  },
+  "map": {
+    "map_id": 54,
+    "map_name": "Pewter Gym"
+  },
+  "flags": {
+    "has_pokedex": true,
+    "has_oaks_parcel": true,
+    "pokedex_owned": 1,
+    "pokedex_seen": 12,
+    "badges": [],
+    "badge_count": 0
+  },
+  "interface": {
+    "kind": "battle",
+    "text": [
+      "GEODUDE",
+      "CHARMANDER",
+      "CHARMANDER",
+      "used EMBER!"
+    ],
+    "navigation_available": false,
+    "controls": "Use battle controls."
+  },
+  "navigation": {
+    "targets": [],
+    "available": false
+  },
+  "capture": {
+    "frame": 4311071,
+    "synchronized": true,
+    "screen_hash": "5c95fb25f04b2e0cbd839425b6e799b2de97aeb9f2b4f035ee1d46a621444bd1"
+  }
+}

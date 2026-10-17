@@ -1,0 +1,23 @@
+{
+  "model": "qwen3.8-flash-next:iq4_nl",
+  "policy": "reactive",
+  "seed": 10014,
+  "block": 15,
+  "duration_seconds": 3600,
+  "navigation": true,
+  "bounded_skills": true,
+  "integrated_controls": true,
+  "persistent_memory": true,
+  "durable_evidence": true,
+  "memory_mode": "evidence",
+  "decision_matrix": true,
+  "objective_controller": true,
+  "action_only": true,
+  "staged_goals": true,
+  "persistent_walk": true,
+  "progress_control": true,
+  "policy_measurements": true,
+  "navigation_revision": "bounded-warp-cycle-recovery-v4-interaction-progress-v2",
+  "run_id": "43-reactive-fe1b6814",
+  "start_sha256": "624de2ee73ffc4fb297aeaa8c11c601b3fb5e2db57e58e760084ad38971e4e3c"
+}

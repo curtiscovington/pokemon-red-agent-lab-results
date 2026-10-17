@@ -1,0 +1,77 @@
+{
+  "model": "qwen3.8-flash-next:iq4_nl",
+  "policy": "random",
+  "seed": 10014,
+  "block": 15,
+  "duration_seconds": 3600,
+  "navigation": true,
+  "bounded_skills": true,
+  "integrated_controls": true,
+  "persistent_memory": true,
+  "durable_evidence": true,
+  "memory_mode": "evidence",
+  "decision_matrix": true,
+  "objective_controller": true,
+  "action_only": true,
+  "staged_goals": true,
+  "persistent_walk": true,
+  "progress_control": true,
+  "policy_measurements": true,
+  "navigation_revision": "bounded-warp-cycle-recovery-v4-interaction-progress-v2",
+  "run_id": "44-random-80c94829",
+  "status": "completed",
+  "actions": 1510,
+  "controller_inputs": 3067,
+  "navigation_actions": 126,
+  "navigation_requests": 126,
+  "zero_input_navigation": 0,
+  "stale_actions": 30,
+  "attempts": 1540,
+  "invalid": 0,
+  "valid_responses": 1540,
+  "errors": 1,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "milestones": {
+    "party_observed": {
+      "elapsed": 1553.816295002005,
+      "value": true,
+      "capture": "frames/000549.png"
+    }
+  },
+  "load_warmup_seconds": 0.22549217089544982,
+  "observed_emulated_frames": 214971,
+  "max_same_position_observations": 579,
+  "elapsed_seconds": 3600.65511535306,
+  "overshoot_seconds": 0.6551153530599549,
+  "final_evidence": {
+    "party_observed": true,
+    "badges_observed": [],
+    "provisional_has_pokedex": false,
+    "provisional_has_parcel": false,
+    "bag": [
+      {
+        "id": 20,
+        "item": "Potion",
+        "quantity": 1
+      }
+    ]
+  },
+  "unique_positions": 332,
+  "valid_action_rate": 1.0,
+  "actions_per_minute": 25.162087758331797,
+  "latency_p50_seconds": 1.4783930964767933e-05,
+  "latency_p95_seconds": 1.6991980373859406e-05,
+  "model_recoveries": 0,
+  "decision_counts": {
+    "accepted": 1510,
+    "executed_with_inputs": 1510,
+    "dialogue_menu": 1177,
+    "reconsider": 62,
+    "resume_cancel": 12,
+    "healing_objective": 1,
+    "battle": 655
+  },
+  "selector": "random",
+  "resource_affected": false
+}

@@ -1,0 +1,97 @@
+{
+  "model": "qwen3.8-flash-next:iq4_nl",
+  "policy": "scripted",
+  "seed": 10010,
+  "block": 11,
+  "duration_seconds": 3600,
+  "navigation": true,
+  "bounded_skills": true,
+  "integrated_controls": true,
+  "persistent_memory": true,
+  "durable_evidence": true,
+  "memory_mode": "evidence",
+  "decision_matrix": true,
+  "objective_controller": true,
+  "action_only": true,
+  "staged_goals": true,
+  "persistent_walk": true,
+  "progress_control": true,
+  "policy_measurements": true,
+  "scripted_variant": "red-route-combat-v4",
+  "navigation_revision": "bounded-warp-cycle-recovery-v4-interaction-progress-v2",
+  "run_id": "31-scripted-60cc4774",
+  "status": "completed",
+  "actions": 862,
+  "controller_inputs": 2959,
+  "navigation_actions": 121,
+  "navigation_requests": 123,
+  "zero_input_navigation": 2,
+  "stale_actions": 47,
+  "attempts": 912,
+  "invalid": 0,
+  "valid_responses": 912,
+  "errors": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "milestones": {
+    "party_observed": {
+      "elapsed": 108.21054464997724,
+      "value": true,
+      "capture": "frames/000030.png"
+    },
+    "provisional_has_parcel": {
+      "elapsed": 394.84977378405165,
+      "value": true,
+      "capture": "frames/000126.png"
+    },
+    "provisional_has_pokedex": {
+      "elapsed": 616.405128207989,
+      "value": true,
+      "capture": "frames/000172.png"
+    },
+    "badges_observed": {
+      "elapsed": 2511.2247394670267,
+      "value": [
+        "Boulder"
+      ],
+      "capture": "frames/000716.png"
+    }
+  },
+  "load_warmup_seconds": 0.23295264202170074,
+  "observed_emulated_frames": 214951,
+  "max_same_position_observations": 125,
+  "elapsed_seconds": 3600.006848798017,
+  "overshoot_seconds": 0.006848798017017543,
+  "final_evidence": {
+    "party_observed": true,
+    "badges_observed": [
+      "Boulder"
+    ],
+    "provisional_has_pokedex": true,
+    "provisional_has_parcel": true,
+    "bag": [
+      {
+        "id": 234,
+        "item": "TM34",
+        "quantity": 1
+      }
+    ]
+  },
+  "unique_positions": 764,
+  "valid_action_rate": 1.0,
+  "actions_per_minute": 14.366639334941393,
+  "latency_p50_seconds": 0.00010100705549120903,
+  "latency_p95_seconds": 0.00016811001114547253,
+  "model_recoveries": 0,
+  "decision_counts": {
+    "accepted": 865,
+    "executed_with_inputs": 862,
+    "dialogue_menu": 738,
+    "healing_objective": 183,
+    "resume_cancel": 22,
+    "battle": 552,
+    "reconsider": 19
+  },
+  "selector": "scripted",
+  "resource_affected": false
+}

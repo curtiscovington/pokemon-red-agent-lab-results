@@ -1,0 +1,334 @@
+{
+  "metadata": {
+    "game": "Pokemon Red/Blue (USA)",
+    "timestamp": "2026-10-16T02:25:04.589597+00:00",
+    "frame_count": null
+  },
+  "player": {
+    "name": "AAAAAAA",
+    "rival_name": "AAAAAAA",
+    "money": 3175,
+    "badges": [],
+    "badge_count": 0,
+    "position": {
+      "y": 0,
+      "x": 11
+    },
+    "facing": "down",
+    "play_time": "256:00:00"
+  },
+  "party": [
+    {
+      "species_id": 176,
+      "dex_number": 4,
+      "species": "Charmander",
+      "nickname": "CHARMANDER",
+      "level": 6,
+      "hp": 4,
+      "max_hp": 21,
+      "status": "OK",
+      "types": [
+        "Fire"
+      ],
+      "moves": [
+        {
+          "id": 10,
+          "name": "Scratch",
+          "pp": 31,
+          "pp_up": 0
+        },
+        {
+          "id": 45,
+          "name": "Growl",
+          "pp": 36,
+          "pp_up": 0
+        }
+      ],
+      "stats": {
+        "attack": 13,
+        "defense": 11,
+        "speed": 14,
+        "special": 11
+      },
+      "ot_id": 12663,
+      "experience": 205
+    }
+  ],
+  "bag": [
+    {
+      "id": 20,
+      "item": "Potion",
+      "quantity": 1
+    },
+    {
+      "id": 70,
+      "item": "Oak's Parcel",
+      "quantity": 1
+    }
+  ],
+  "battle": {
+    "in_battle": false,
+    "type": "none"
+  },
+  "dialog": {
+    "active": true,
+    "text_box_id": 20,
+    "joy_ignore": 0,
+    "engine_active": false
+  },
+  "map": {
+    "map_id": 12,
+    "map_name": "Route 1"
+  },
+  "flags": {
+    "has_pokedex": false,
+    "has_oaks_parcel": true,
+    "pokedex_owned": 1,
+    "pokedex_seen": 4,
+    "badges": [],
+    "badge_count": 0
+  },
+  "collision": {
+    "tileset": 0,
+    "walkable": [
+      [
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    ],
+    "tile_ids": [
+      [
+        44,
+        44,
+        124,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127
+      ],
+      [
+        44,
+        44,
+        124,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127
+      ],
+      [
+        44,
+        44,
+        124,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127
+      ],
+      [
+        121,
+        122,
+        122,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127
+      ],
+      [
+        124,
+        127,
+        127,
+        122,
+        122,
+        122,
+        122,
+        122,
+        122,
+        122
+      ],
+      [
+        125,
+        122,
+        122,
+        57,
+        57,
+        124,
+        127,
+        127,
+        127,
+        127
+      ],
+      [
+        124,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127
+      ],
+      [
+        124,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127
+      ],
+      [
+        125,
+        122,
+        122,
+        122,
+        122,
+        122,
+        122,
+        122,
+        122,
+        122
+      ]
+    ],
+    "player_cell": "E5",
+    "ascii": "   A B C D E F G H I J\n 1 . . # # # # # # # #\n 2 . . # # # # # # # #\n 3 . . # # # # # # # #\n 4 # # # # # # # # # #\n 5 # # # # @ # # # # #\n 6 # # # . . # # # # #\n 7 # # # # # # # # # #\n 8 # # # # # # # # # #\n 9 # # # # # # # # # #\n\n@ you (E5)   . walkable   # blocked\nup=row-1 down=row+1 left=col-1 right=col+1"
+  },
+  "interface": {
+    "kind": "dialogue",
+    "text": [
+      "Would you like to",
+      "SAVE the game?"
+    ],
+    "navigation_available": false,
+    "controls": "A advances or closes the text. Once it closes, choose a destination; pressing A again can reopen the same conversation."
+  },
+  "navigation": {
+    "targets": [],
+    "available": false
+  },
+  "capture": {
+    "frame": 1293727,
+    "synchronized": true,
+    "screen_hash": "93289e830c998976b9b71dac75756f11f6a3bc442168fe77bafa068851cd2222"
+  }
+}

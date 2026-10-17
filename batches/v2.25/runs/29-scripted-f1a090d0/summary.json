@@ -1,0 +1,97 @@
+{
+  "model": "qwen3.8-flash-next:iq4_nl",
+  "policy": "scripted",
+  "seed": 10009,
+  "block": 10,
+  "duration_seconds": 3600,
+  "navigation": true,
+  "bounded_skills": true,
+  "integrated_controls": true,
+  "persistent_memory": true,
+  "durable_evidence": true,
+  "memory_mode": "evidence",
+  "decision_matrix": true,
+  "objective_controller": true,
+  "action_only": true,
+  "staged_goals": true,
+  "persistent_walk": true,
+  "progress_control": true,
+  "policy_measurements": true,
+  "scripted_variant": "red-route-combat-v4",
+  "navigation_revision": "bounded-warp-cycle-recovery-v4-interaction-progress-v2",
+  "run_id": "29-scripted-f1a090d0",
+  "status": "completed",
+  "actions": 947,
+  "controller_inputs": 2916,
+  "navigation_actions": 115,
+  "navigation_requests": 116,
+  "zero_input_navigation": 1,
+  "stale_actions": 53,
+  "attempts": 1001,
+  "invalid": 0,
+  "valid_responses": 1001,
+  "errors": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "milestones": {
+    "party_observed": {
+      "elapsed": 108.73485862102825,
+      "value": true,
+      "capture": "frames/000028.png"
+    },
+    "provisional_has_parcel": {
+      "elapsed": 355.0650478830794,
+      "value": true,
+      "capture": "frames/000097.png"
+    },
+    "provisional_has_pokedex": {
+      "elapsed": 528.9453780309996,
+      "value": true,
+      "capture": "frames/000113.png"
+    },
+    "badges_observed": {
+      "elapsed": 2791.1615257560043,
+      "value": [
+        "Boulder"
+      ],
+      "capture": "frames/000876.png"
+    }
+  },
+  "load_warmup_seconds": 0.23533610301092267,
+  "observed_emulated_frames": 214852,
+  "max_same_position_observations": 124,
+  "elapsed_seconds": 3600.0369301680475,
+  "overshoot_seconds": 0.03693016804754734,
+  "final_evidence": {
+    "party_observed": true,
+    "badges_observed": [
+      "Boulder"
+    ],
+    "provisional_has_pokedex": true,
+    "provisional_has_parcel": true,
+    "bag": [
+      {
+        "id": 234,
+        "item": "TM34",
+        "quantity": 1
+      }
+    ]
+  },
+  "unique_positions": 703,
+  "valid_action_rate": 1.0,
+  "actions_per_minute": 15.783171423563056,
+  "latency_p50_seconds": 8.574395906180143e-05,
+  "latency_p95_seconds": 0.0001632319763302803,
+  "model_recoveries": 0,
+  "decision_counts": {
+    "accepted": 948,
+    "executed_with_inputs": 947,
+    "dialogue_menu": 830,
+    "healing_objective": 162,
+    "resume_cancel": 17,
+    "battle": 672,
+    "reconsider": 19
+  },
+  "selector": "scripted",
+  "resource_affected": false
+}

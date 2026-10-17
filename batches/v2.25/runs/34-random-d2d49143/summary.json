@@ -1,0 +1,87 @@
+{
+  "model": "qwen3.8-flash-next:iq4_nl",
+  "policy": "random",
+  "seed": 10011,
+  "block": 12,
+  "duration_seconds": 3600,
+  "navigation": true,
+  "bounded_skills": true,
+  "integrated_controls": true,
+  "persistent_memory": true,
+  "durable_evidence": true,
+  "memory_mode": "evidence",
+  "decision_matrix": true,
+  "objective_controller": true,
+  "action_only": true,
+  "staged_goals": true,
+  "persistent_walk": true,
+  "progress_control": true,
+  "policy_measurements": true,
+  "navigation_revision": "bounded-warp-cycle-recovery-v4-interaction-progress-v2",
+  "run_id": "34-random-d2d49143",
+  "status": "completed",
+  "actions": 1323,
+  "controller_inputs": 3268,
+  "navigation_actions": 138,
+  "navigation_requests": 140,
+  "zero_input_navigation": 1,
+  "stale_actions": 31,
+  "attempts": 1356,
+  "invalid": 0,
+  "valid_responses": 1356,
+  "errors": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "milestones": {
+    "party_observed": {
+      "elapsed": 1017.1765731390333,
+      "value": true,
+      "capture": "frames/000342.png"
+    },
+    "provisional_has_parcel": {
+      "elapsed": 3368.92513689294,
+      "value": true,
+      "capture": "frames/001300.png"
+    }
+  },
+  "load_warmup_seconds": 0.24282961792778224,
+  "observed_emulated_frames": 214084,
+  "max_same_position_observations": 335,
+  "elapsed_seconds": 3600.210711388965,
+  "overshoot_seconds": 0.2107113889651373,
+  "final_evidence": {
+    "party_observed": true,
+    "badges_observed": [],
+    "provisional_has_pokedex": false,
+    "provisional_has_parcel": true,
+    "bag": [
+      {
+        "id": 20,
+        "item": "Potion",
+        "quantity": 1
+      },
+      {
+        "id": 70,
+        "item": "Oak's Parcel",
+        "quantity": 1
+      }
+    ]
+  },
+  "unique_positions": 450,
+  "valid_action_rate": 1.0,
+  "actions_per_minute": 22.048709468278624,
+  "latency_p50_seconds": 9.359908290207386e-06,
+  "latency_p95_seconds": 1.5857978723943233e-05,
+  "model_recoveries": 0,
+  "decision_counts": {
+    "accepted": 1325,
+    "executed_with_inputs": 1323,
+    "dialogue_menu": 914,
+    "reconsider": 43,
+    "resume_cancel": 12,
+    "healing_objective": 12,
+    "battle": 418
+  },
+  "selector": "random",
+  "resource_affected": false
+}

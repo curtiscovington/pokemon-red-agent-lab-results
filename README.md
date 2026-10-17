@@ -4,7 +4,15 @@ An exploratory study of a local model playing Pokémon Red through an evolving a
 
 [Read the blog post](https://curtiscovington.com/posts/pokemon-red-one-hour-agent-lab/) · [Final results](results/final-batch-results.md) · [Model provenance](results/model-and-protocol.json) · [Evidence index](results/evidence-index.md)
 
-## What Happened
+## Follow-Up: Fixed Controls, Three Policies
+
+The completed v2.25 comparison contains **45 additional one-hour runs**:15 random,15 route-and-combat script,15 pinned model. The script earned12 badges;model and random earned0. [Results and uniform audit](results/fixed-controls/README.md) · [Protocol](results/fixed-controls/protocol.md) · [Per-run archives](batches/v2.25/archive-index.json).
+
+All three arms used the same corrected controls. The script adds explicit prior route/combat knowledge; this is a comparison under that harness. All45 completed outcomes are retained. The stopped development batch is excluded as a whole. Earlier model wins remain verified; the later decline remains unexplained. The follow-up article is currently a draft.
+
+![Milestone times for all45 runs](images/fixed-controls/milestones.png)
+
+## First Post: What Happened
 
 The final frozen comparison had eight one-hour runs, four per condition. All eight entered Pewter Gym. The setup that retained destinations through battles earned one badge; adding healing and restrictions on repeated journeys/conversations earned three. This is a small exploratory comparison of two assisted setups, not a general model-capability benchmark or an isolated estimate of any single repair's effect.
 

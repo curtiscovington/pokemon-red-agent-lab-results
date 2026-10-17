@@ -1,0 +1,136 @@
+{
+  "metadata": {
+    "game": "Pokemon Red/Blue (USA)",
+    "timestamp": "2026-10-15T22:24:06.959628+00:00",
+    "frame_count": null
+  },
+  "player": {
+    "name": "AAAAAAA",
+    "rival_name": "AAAAAAA",
+    "money": 2086,
+    "badges": [
+      "Boulder"
+    ],
+    "badge_count": 1,
+    "position": {
+      "y": 4,
+      "x": 19
+    },
+    "facing": "right",
+    "play_time": "256:00:00"
+  },
+  "party": [
+    {
+      "species_id": 178,
+      "dex_number": 5,
+      "species": "Charmeleon",
+      "nickname": "CHARMELEON",
+      "level": 16,
+      "hp": 37,
+      "max_hp": 48,
+      "status": "OK",
+      "types": [
+        "Fire"
+      ],
+      "moves": [
+        {
+          "id": 10,
+          "name": "Scratch",
+          "pp": 34,
+          "pp_up": 0
+        },
+        {
+          "id": 45,
+          "name": "Growl",
+          "pp": 40,
+          "pp_up": 0
+        },
+        {
+          "id": 52,
+          "name": "Ember",
+          "pp": 17,
+          "pp_up": 0
+        },
+        {
+          "id": 43,
+          "name": "Leer",
+          "pp": 30,
+          "pp_up": 0
+        }
+      ],
+      "stats": {
+        "attack": 28,
+        "defense": 28,
+        "speed": 33,
+        "special": 29
+      },
+      "ot_id": 12663,
+      "experience": 2767
+    }
+  ],
+  "bag": [
+    {
+      "id": 234,
+      "item": "TM34",
+      "quantity": 1
+    }
+  ],
+  "battle": {
+    "in_battle": true,
+    "type": "trainer",
+    "enemy": {
+      "species_id": 165,
+      "dex_number": 19,
+      "species": "Rattata",
+      "level": 10,
+      "hp": 27,
+      "max_hp": 27,
+      "status": "OK",
+      "moves": [
+        "Tackle",
+        "Tail Whip",
+        "Quick Attack"
+      ]
+    }
+  },
+  "dialog": {
+    "active": false,
+    "text_box_id": 1,
+    "joy_ignore": 0,
+    "engine_active": false
+  },
+  "map": {
+    "map_id": 14,
+    "map_name": "Route 3"
+  },
+  "flags": {
+    "has_pokedex": true,
+    "has_oaks_parcel": true,
+    "pokedex_owned": 2,
+    "pokedex_seen": 14,
+    "badges": [
+      "Boulder"
+    ],
+    "badge_count": 1
+  },
+  "interface": {
+    "kind": "battle",
+    "text": [
+      "RATTATA",
+      "CHARMELEON",
+      "CHARMELEON",
+      "used EMBER!"
+    ],
+    "navigation_available": false,
+    "controls": "Use battle controls."
+  },
+  "navigation": {
+    "targets": [],
+    "available": false
+  },
+  "capture": {
+    "frame": 430209,
+    "synchronized": true,
+    "screen_hash": "ad264d2fb25705c566dc7bd37c6fd097f3bb6cbed1eefdee39c994e7d30a2feb"
+  }
+}

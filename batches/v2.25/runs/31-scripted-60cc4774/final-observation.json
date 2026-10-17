@@ -1,0 +1,165 @@
+{
+  "metadata": {
+    "game": "Pokemon Red/Blue (USA)",
+    "timestamp": "2026-10-17T03:28:58.405669+00:00",
+    "frame_count": null
+  },
+  "player": {
+    "name": "AAAAAAA",
+    "rival_name": "AAAAAAA",
+    "money": 3653,
+    "badges": [
+      "Boulder"
+    ],
+    "badge_count": 1,
+    "position": {
+      "y": 6,
+      "x": 19
+    },
+    "facing": "right",
+    "play_time": "256:00:00"
+  },
+  "party": [
+    {
+      "species_id": 178,
+      "dex_number": 5,
+      "species": "Charmeleon",
+      "nickname": "CHARMELEON",
+      "level": 16,
+      "hp": 32,
+      "max_hp": 48,
+      "status": "OK",
+      "types": [
+        "Fire"
+      ],
+      "moves": [
+        {
+          "id": 10,
+          "name": "Scratch",
+          "pp": 33,
+          "pp_up": 0
+        },
+        {
+          "id": 45,
+          "name": "Growl",
+          "pp": 40,
+          "pp_up": 0
+        },
+        {
+          "id": 52,
+          "name": "Ember",
+          "pp": 16,
+          "pp_up": 0
+        },
+        {
+          "id": 43,
+          "name": "Leer",
+          "pp": 30,
+          "pp_up": 0
+        }
+      ],
+      "stats": {
+        "attack": 31,
+        "defense": 25,
+        "speed": 34,
+        "special": 30
+      },
+      "ot_id": 12663,
+      "experience": 2591
+    }
+  ],
+  "bag": [
+    {
+      "id": 234,
+      "item": "TM34",
+      "quantity": 1
+    }
+  ],
+  "battle": {
+    "in_battle": true,
+    "type": "trainer",
+    "enemy": {
+      "species_id": 112,
+      "dex_number": 13,
+      "species": "Weedle",
+      "level": 9,
+      "hp": 27,
+      "max_hp": 27,
+      "status": "OK",
+      "moves": [
+        "Poison Sting",
+        "String Shot"
+      ]
+    }
+  },
+  "dialog": {
+    "active": false,
+    "text_box_id": 11,
+    "joy_ignore": 0,
+    "engine_active": false
+  },
+  "map": {
+    "map_id": 14,
+    "map_name": "Route 3"
+  },
+  "flags": {
+    "has_pokedex": true,
+    "has_oaks_parcel": true,
+    "pokedex_owned": 2,
+    "pokedex_seen": 15,
+    "badges": [
+      "Boulder"
+    ],
+    "badge_count": 1
+  },
+  "interface": {
+    "menu_options": [
+      {
+        "label": "SCRATCH",
+        "x": 5,
+        "y": 13
+      },
+      {
+        "label": "GROWL",
+        "x": 5,
+        "y": 14
+      },
+      {
+        "label": "EMBER",
+        "x": 5,
+        "y": 15
+      },
+      {
+        "label": "LEER",
+        "x": 5,
+        "y": 16
+      }
+    ],
+    "menu_cursor": {
+      "x": 5,
+      "y": 13
+    },
+    "kind": "battle",
+    "text": [
+      "WEEDLE",
+      "CHARMELEON",
+      "TYPE",
+      "NORMAL",
+      "SCRATCH",
+      "GROWL",
+      "EMBER",
+      "LEER"
+    ],
+    "navigation_available": false,
+    "controls": "Use battle controls."
+  },
+  "navigation": {
+    "targets": [],
+    "available": false
+  },
+  "capture": {
+    "frame": 6683167,
+    "synchronized": true,
+    "screen_hash": "4795498dbbea9066cb63cb3a8c40f0698119a8bcf35cfb84d1203cd70457b333"
+  }
+}

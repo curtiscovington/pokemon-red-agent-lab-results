@@ -1,0 +1,347 @@
+{
+  "metadata": {
+    "game": "Pokemon Red/Blue (USA)",
+    "timestamp": "2026-10-15T23:24:32.235642+00:00",
+    "frame_count": null
+  },
+  "player": {
+    "name": "AAAAAAA",
+    "rival_name": "AAAAAAA",
+    "money": 463,
+    "badges": [],
+    "badge_count": 0,
+    "position": {
+      "y": 2,
+      "x": 4
+    },
+    "facing": "up",
+    "play_time": "256:00:00"
+  },
+  "party": [
+    {
+      "species_id": 176,
+      "dex_number": 4,
+      "species": "Charmander",
+      "nickname": "CHARMANDER",
+      "level": 14,
+      "hp": 13,
+      "max_hp": 37,
+      "status": "OK",
+      "types": [
+        "Fire"
+      ],
+      "moves": [
+        {
+          "id": 10,
+          "name": "Scratch",
+          "pp": 35,
+          "pp_up": 0
+        },
+        {
+          "id": 45,
+          "name": "Growl",
+          "pp": 40,
+          "pp_up": 0
+        },
+        {
+          "id": 52,
+          "name": "Ember",
+          "pp": 18,
+          "pp_up": 0
+        }
+      ],
+      "stats": {
+        "attack": 20,
+        "defense": 20,
+        "speed": 26,
+        "special": 20
+      },
+      "ot_id": 12663,
+      "experience": 1755
+    }
+  ],
+  "bag": [],
+  "battle": {
+    "in_battle": false,
+    "type": "none",
+    "integrity": "rejected_stale_zero_hp_enemy_without_battle_dialog"
+  },
+  "dialog": {
+    "active": true,
+    "text_box_id": 1,
+    "joy_ignore": 0,
+    "engine_active": false
+  },
+  "map": {
+    "map_id": 54,
+    "map_name": "Pewter Gym"
+  },
+  "flags": {
+    "has_pokedex": true,
+    "has_oaks_parcel": true,
+    "pokedex_owned": 1,
+    "pokedex_seen": 10,
+    "badges": [],
+    "badge_count": 0
+  },
+  "battle_raw": {
+    "in_battle": true,
+    "type": "trainer",
+    "enemy": {
+      "species_id": 169,
+      "dex_number": 74,
+      "species": "Geodude",
+      "level": 12,
+      "hp": 0,
+      "max_hp": 33,
+      "status": "OK",
+      "moves": [
+        "Tackle",
+        "Defense Curl"
+      ]
+    }
+  },
+  "interface": {
+    "kind": "dialogue",
+    "text": [
+      "CHARMANDER grew",
+      "to level   !"
+    ],
+    "navigation_available": false,
+    "controls": "A advances or closes the text. Once it closes, choose a destination; pressing A again can reopen the same conversation."
+  },
+  "collision": {
+    "tileset": 7,
+    "walkable": [
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    ],
+    "tile_ids": [
+      [
+        127,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127
+      ],
+      [
+        127,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127
+      ],
+      [
+        127,
+        56,
+        70,
+        84,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127
+      ],
+      [
+        127,
+        58,
+        72,
+        86,
+        127,
+        130,
+        128,
+        140,
+        141,
+        132
+      ],
+      [
+        127,
+        60,
+        74,
+        88,
+        127,
+        113,
+        107,
+        99,
+        99,
+        109
+      ],
+      [
+        127,
+        62,
+        76,
+        90,
+        127,
+        118,
+        118,
+        118,
+        118,
+        119
+      ],
+      [
+        124,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127
+      ],
+      [
+        124,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127,
+        127
+      ],
+      [
+        125,
+        122,
+        122,
+        122,
+        122,
+        122,
+        122,
+        122,
+        122,
+        122
+      ]
+    ],
+    "player_cell": "E5",
+    "ascii": "   A B C D E F G H I J\n 1 # # # # # # # # # #\n 2 # # # # # # # # # #\n 3 # # # # # # # # # #\n 4 # # # # # # # # # #\n 5 # . . # @ # # # # #\n 6 # # . # # # # # # #\n 7 # # # # # # # # # #\n 8 # # # # # # # # # #\n 9 # # # # # # # # # #\n\n@ you (E5)   . walkable   # blocked\nup=row-1 down=row+1 left=col-1 right=col+1"
+  },
+  "navigation": {
+    "targets": [],
+    "available": false
+  },
+  "capture": {
+    "frame": 646737,
+    "synchronized": true,
+    "screen_hash": "a17a2a93c29a73bd36b5b757cc9d1756afd6cba1c46e1d9633c5abcd1df98004"
+  }
+}

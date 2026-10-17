@@ -1,0 +1,326 @@
+{
+  "metadata": {
+    "game": "Pokemon Red/Blue (USA)",
+    "timestamp": "2026-10-16T17:27:29.862642+00:00",
+    "frame_count": null
+  },
+  "player": {
+    "name": "AAAAAAA",
+    "rival_name": "AAAAAAA",
+    "money": 1677,
+    "badges": [],
+    "badge_count": 0,
+    "position": {
+      "y": 18,
+      "x": 24
+    },
+    "facing": "left",
+    "play_time": "256:00:00"
+  },
+  "party": [
+    {
+      "species_id": 176,
+      "dex_number": 4,
+      "species": "Charmander",
+      "nickname": "CHARMANDER",
+      "level": 10,
+      "hp": 28,
+      "max_hp": 28,
+      "status": "OK",
+      "types": [
+        "Fire"
+      ],
+      "moves": [
+        {
+          "id": 10,
+          "name": "Scratch",
+          "pp": 35,
+          "pp_up": 0
+        },
+        {
+          "id": 45,
+          "name": "Growl",
+          "pp": 40,
+          "pp_up": 0
+        },
+        {
+          "id": 52,
+          "name": "Ember",
+          "pp": 25,
+          "pp_up": 0
+        }
+      ],
+      "stats": {
+        "attack": 16,
+        "defense": 15,
+        "speed": 18,
+        "special": 17
+      },
+      "ot_id": 12663,
+      "experience": 583
+    }
+  ],
+  "bag": [],
+  "battle": {
+    "in_battle": false,
+    "type": "none"
+  },
+  "dialog": {
+    "active": false,
+    "text_box_id": 1,
+    "joy_ignore": 128,
+    "engine_active": false
+  },
+  "map": {
+    "map_id": 2,
+    "map_name": "Pewter City"
+  },
+  "flags": {
+    "has_pokedex": true,
+    "has_oaks_parcel": true,
+    "pokedex_owned": 1,
+    "pokedex_seen": 6,
+    "badges": [],
+    "badge_count": 0
+  },
+  "collision": {
+    "tileset": 0,
+    "walkable": [
+      [
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    ],
+    "tile_ids": [
+      [
+        35,
+        57,
+        35,
+        90,
+        18,
+        18,
+        18,
+        57,
+        35,
+        57
+      ],
+      [
+        57,
+        35,
+        57,
+        92,
+        23,
+        23,
+        23,
+        35,
+        57,
+        35
+      ],
+      [
+        35,
+        44,
+        44,
+        15,
+        75,
+        75,
+        75,
+        44,
+        44,
+        44
+      ],
+      [
+        57,
+        44,
+        44,
+        78,
+        27,
+        74,
+        26,
+        44,
+        44,
+        44
+      ],
+      [
+        35,
+        57,
+        35,
+        57,
+        35,
+        57,
+        35,
+        57,
+        35,
+        57
+      ],
+      [
+        35,
+        35,
+        57,
+        35,
+        57,
+        35,
+        57,
+        35,
+        57,
+        35
+      ],
+      [
+        35,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44
+      ],
+      [
+        35,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44
+      ],
+      [
+        35,
+        57,
+        57,
+        57,
+        57,
+        57,
+        57,
+        57,
+        57,
+        57
+      ]
+    ],
+    "player_cell": "E5",
+    "ascii": "   A B C D E F G H I J\n 1 . . . # # # # . . .\n 2 . . . # # # # . . .\n 3 . . . # # # # . . .\n 4 . . . # . # # . . .\n 5 . . . . @ . . . . .\n 6 . . . . . . . . . .\n 7 . . . . . . . . . .\n 8 . . . . . . . . . .\n 9 . . . . . . . . . .\n\n@ you (E5)   . walkable   # blocked\nup=row-1 down=row+1 left=col-1 right=col+1"
+  },
+  "interface": {
+    "kind": "transition",
+    "text": [],
+    "navigation_available": false,
+    "controls": "The game currently controls movement; wait for the transition."
+  },
+  "navigation": {
+    "targets": [],
+    "available": false
+  },
+  "capture": {
+    "frame": 4527689,
+    "synchronized": true,
+    "screen_hash": "538dac940c79afb65d99c71cd07fb0b60324d4c252d9e7ac0bcd880372eb872a"
+  }
+}

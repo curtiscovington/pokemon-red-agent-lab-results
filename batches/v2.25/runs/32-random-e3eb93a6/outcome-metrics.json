@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "first_observed_seconds": {
+    "starter_observed": 411.96831361798104
+  },
+  "parcel_delivery_confirmed": false,
+  "delivery_bag_corroborated": false,
+  "repeated_nonbattle_dialogue_pages": 110,
+  "repeated_navigation_targets_within_objective": 66,
+  "reconsideration_120_seconds": {
+    "signals": 25,
+    "complete_windows": 25,
+    "censored_windows": 0,
+    "changed_action": 25,
+    "changed_context": 25,
+    "milestone_evidence": 0
+  },
+  "observed_seconds": 3600.04,
+  "timing_note": "Unreached milestones are censored; revisits and context changes are not proof of failure or success."
+}

@@ -1,0 +1,120 @@
+{
+  "metadata": {
+    "game": "Pokemon Red/Blue (USA)",
+    "timestamp": "2026-10-16T08:26:03.893585+00:00",
+    "frame_count": null
+  },
+  "player": {
+    "name": "AAAAAAA",
+    "rival_name": "AAAAAAA",
+    "money": 1500,
+    "badges": [],
+    "badge_count": 0,
+    "position": {
+      "y": 28,
+      "x": 8
+    },
+    "facing": "left",
+    "play_time": "256:00:00"
+  },
+  "party": [
+    {
+      "species_id": 153,
+      "dex_number": 1,
+      "species": "Bulbasaur",
+      "nickname": "BULBASAUR",
+      "level": 5,
+      "hp": 20,
+      "max_hp": 20,
+      "status": "OK",
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "moves": [
+        {
+          "id": 33,
+          "name": "Tackle",
+          "pp": 34,
+          "pp_up": 0
+        },
+        {
+          "id": 45,
+          "name": "Growl",
+          "pp": 40,
+          "pp_up": 0
+        }
+      ],
+      "stats": {
+        "attack": 10,
+        "defense": 10,
+        "speed": 10,
+        "special": 13
+      },
+      "ot_id": 12663,
+      "experience": 135
+    }
+  ],
+  "bag": [
+    {
+      "id": 20,
+      "item": "Potion",
+      "quantity": 1
+    }
+  ],
+  "battle": {
+    "in_battle": true,
+    "type": "wild",
+    "enemy": {
+      "species_id": 165,
+      "dex_number": 19,
+      "species": "Rattata",
+      "level": 3,
+      "hp": 9,
+      "max_hp": 15,
+      "status": "OK",
+      "moves": [
+        "Tackle",
+        "Tail Whip"
+      ]
+    }
+  },
+  "dialog": {
+    "active": false,
+    "text_box_id": 12,
+    "joy_ignore": 0,
+    "engine_active": false
+  },
+  "map": {
+    "map_id": 12,
+    "map_name": "Route 1"
+  },
+  "flags": {
+    "has_pokedex": false,
+    "has_oaks_parcel": false,
+    "pokedex_owned": 1,
+    "pokedex_seen": 4,
+    "badges": [],
+    "badge_count": 0
+  },
+  "interface": {
+    "kind": "battle",
+    "text": [
+      "BULBASAUR",
+      "SWITCH",
+      "Choose a P  STATS",
+      "CANCEL"
+    ],
+    "navigation_available": false,
+    "controls": "Use battle controls."
+  },
+  "navigation": {
+    "targets": [],
+    "available": false
+  },
+  "capture": {
+    "frame": 2587383,
+    "synchronized": true,
+    "screen_hash": "540a5951e9e6af69bf6080ad5aa21086aca07d274dccbfaab6d0c9fc8ce35105"
+  }
+}

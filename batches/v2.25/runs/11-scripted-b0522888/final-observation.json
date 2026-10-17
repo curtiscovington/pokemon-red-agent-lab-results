@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "game": "Pokemon Red/Blue (USA)",
+    "timestamp": "2026-10-16T07:26:02.271381+00:00",
+    "frame_count": null
+  },
+  "player": {
+    "name": "AAAAAAA",
+    "rival_name": "AAAAAAA",
+    "money": 62,
+    "badges": [],
+    "badge_count": 0,
+    "position": {
+      "y": 2,
+      "x": 4
+    },
+    "facing": "up",
+    "play_time": "256:00:00"
+  },
+  "party": [
+    {
+      "species_id": 176,
+      "dex_number": 4,
+      "species": "Charmander",
+      "nickname": "CHARMANDER",
+      "level": 15,
+      "hp": 38,
+      "max_hp": 38,
+      "status": "OK",
+      "types": [
+        "Fire"
+      ],
+      "moves": [
+        {
+          "id": 10,
+          "name": "Scratch",
+          "pp": 35,
+          "pp_up": 0
+        },
+        {
+          "id": 45,
+          "name": "Growl",
+          "pp": 40,
+          "pp_up": 0
+        },
+        {
+          "id": 52,
+          "name": "Ember",
+          "pp": 25,
+          "pp_up": 0
+        },
+        {
+          "id": 43,
+          "name": "Leer",
+          "pp": 30,
+          "pp_up": 0
+        }
+      ],
+      "stats": {
+        "attack": 23,
+        "defense": 19,
+        "speed": 30,
+        "special": 21
+      },
+      "ot_id": 12663,
+      "experience": 2104
+    }
+  ],
+  "bag": [],
+  "battle": {
+    "in_battle": true,
+    "type": "trainer",
+    "enemy": {
+      "species_id": 0,
+      "dex_number": 0,
+      "species": "???(0)",
+      "level": 14,
+      "hp": 12,
+      "max_hp": 36,
+      "status": "OK",
+      "moves": [
+        "Tackle",
+        "Screech",
+        "Bide"
+      ]
+    }
+  },
+  "dialog": {
+    "active": false,
+    "text_box_id": 1,
+    "joy_ignore": 0,
+    "engine_active": false
+  },
+  "map": {
+    "map_id": 54,
+    "map_name": "Pewter Gym"
+  },
+  "flags": {
+    "has_pokedex": true,
+    "has_oaks_parcel": true,
+    "pokedex_owned": 1,
+    "pokedex_seen": 11,
+    "badges": [],
+    "badge_count": 0
+  },
+  "interface": {
+    "kind": "battle",
+    "text": [
+      "BROCK wants",
+      "to fight!"
+    ],
+    "navigation_available": false,
+    "controls": "Use battle controls."
+  },
+  "navigation": {
+    "targets": [],
+    "available": false
+  },
+  "capture": {
+    "frame": 2372267,
+    "synchronized": true,
+    "screen_hash": "0a60b7a05d397db5e7dbe531dae4c501c69da0e3042e3f82a42626b8477b98e8"
+  }
+}

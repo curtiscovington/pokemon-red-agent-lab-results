@@ -1,0 +1,82 @@
+{
+  "model": "qwen3.8-flash-next:iq4_nl",
+  "policy": "scripted",
+  "seed": 10003,
+  "block": 4,
+  "duration_seconds": 3600,
+  "navigation": true,
+  "bounded_skills": true,
+  "integrated_controls": true,
+  "persistent_memory": true,
+  "durable_evidence": true,
+  "memory_mode": "evidence",
+  "decision_matrix": true,
+  "objective_controller": true,
+  "action_only": true,
+  "staged_goals": true,
+  "persistent_walk": true,
+  "progress_control": true,
+  "policy_measurements": true,
+  "scripted_variant": "red-route-combat-v4",
+  "navigation_revision": "bounded-warp-cycle-recovery-v4-interaction-progress-v2",
+  "run_id": "11-scripted-b0522888",
+  "status": "completed",
+  "actions": 1040,
+  "controller_inputs": 2943,
+  "navigation_actions": 95,
+  "navigation_requests": 96,
+  "zero_input_navigation": 1,
+  "stale_actions": 62,
+  "attempts": 1103,
+  "invalid": 0,
+  "valid_responses": 1103,
+  "errors": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "milestones": {
+    "party_observed": {
+      "elapsed": 108.44526064000092,
+      "value": true,
+      "capture": "frames/000030.png"
+    },
+    "provisional_has_parcel": {
+      "elapsed": 388.9786046249792,
+      "value": true,
+      "capture": "frames/000128.png"
+    },
+    "provisional_has_pokedex": {
+      "elapsed": 608.5794810230145,
+      "value": true,
+      "capture": "frames/000171.png"
+    }
+  },
+  "load_warmup_seconds": 0.23624682694207877,
+  "observed_emulated_frames": 214884,
+  "max_same_position_observations": 95,
+  "elapsed_seconds": 3600.002399745048,
+  "overshoot_seconds": 0.0023997450480237603,
+  "final_evidence": {
+    "party_observed": true,
+    "badges_observed": [],
+    "provisional_has_pokedex": true,
+    "provisional_has_parcel": true,
+    "bag": []
+  },
+  "unique_positions": 528,
+  "valid_action_rate": 1.0,
+  "actions_per_minute": 17.333321779013026,
+  "latency_p50_seconds": 9.521597530692816e-05,
+  "latency_p95_seconds": 0.00016510405112057924,
+  "model_recoveries": 0,
+  "decision_counts": {
+    "accepted": 1041,
+    "executed_with_inputs": 1040,
+    "dialogue_menu": 945,
+    "healing_objective": 297,
+    "resume_cancel": 22,
+    "battle": 818,
+    "reconsider": 18
+  },
+  "selector": "scripted",
+  "resource_affected": false
+}

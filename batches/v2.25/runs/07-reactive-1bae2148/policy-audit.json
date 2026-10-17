@@ -1,0 +1,392 @@
+{
+  "version": "policy-audit-v1",
+  "run": "07-reactive-1bae2148",
+  "policy": "reactive",
+  "counts": {
+    "requests": 613,
+    "responses": 613,
+    "request_dialogue_menu": 488,
+    "stale_action_discarded": 218,
+    "unchanged": 22,
+    "request_healing_objective": 165,
+    "request_resume_cancel": 14,
+    "request_battle": 359,
+    "request_reconsider": 4
+  },
+  "script_rules": {},
+  "milestones": {
+    "starter_observed": 127.91994427889585,
+    "parcel_in_bag": 441.141457678983,
+    "parcel_delivery_text": 1130.480656514992,
+    "pokedex_receipt_text": 1167.7147248899564,
+    "forest_entered": 1512.6135141439736,
+    "forest_north_gate": 2007.5534820079338,
+    "pewter_reached": 2117.656108929892,
+    "pewter_gym_entered": 2215.551176496898
+  },
+  "first_badge": null,
+  "badge_dialogue": [],
+  "fixed_trace_samples": [
+    {
+      "line": 4,
+      "elapsed": 0.22872040094807744,
+      "kind": "request"
+    },
+    {
+      "line": 1128,
+      "elapsed": 599.9352457989007,
+      "kind": "request"
+    },
+    {
+      "line": 2303,
+      "elapsed": 1279.6628637289396,
+      "kind": "request"
+    },
+    {
+      "line": 3323,
+      "elapsed": 1877.6439873559866,
+      "kind": "request"
+    },
+    {
+      "line": 4396,
+      "elapsed": 2430.1582760539604,
+      "kind": "request"
+    },
+    {
+      "line": 5420,
+      "elapsed": 2962.0572151918896,
+      "kind": "request"
+    },
+    {
+      "line": 6556,
+      "elapsed": 3544.3085019208957,
+      "kind": "request"
+    }
+  ],
+  "flagged_trace_samples": [
+    {
+      "line": 64,
+      "elapsed": 42.89222279191017,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 100,
+      "elapsed": 59.75131910096388,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 104,
+      "elapsed": 62.033055271953344,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 117,
+      "elapsed": 68.7568684599828,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 199,
+      "elapsed": 109.81706202297937,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 238,
+      "elapsed": 125.01247605390381,
+      "kind": "unchanged"
+    },
+    {
+      "line": 244,
+      "elapsed": 127.69124582991935,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 293,
+      "elapsed": 145.25870957889128,
+      "kind": "unchanged"
+    },
+    {
+      "line": 342,
+      "elapsed": 164.73281122697517,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 356,
+      "elapsed": 171.235004129936,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 373,
+      "elapsed": 177.89799865300301,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 377,
+      "elapsed": 181.36951455590315,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 394,
+      "elapsed": 188.34328361193184,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 398,
+      "elapsed": 190.51317262789235,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 402,
+      "elapsed": 193.79631469293963,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 428,
+      "elapsed": 203.65439927193802,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 432,
+      "elapsed": 205.85032575496007,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 436,
+      "elapsed": 209.0985221459996,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 462,
+      "elapsed": 218.98759323498234,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 466,
+      "elapsed": 221.20565988589078,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 479,
+      "elapsed": 228.7810595469782,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 505,
+      "elapsed": 238.59493480692618,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 509,
+      "elapsed": 240.76171970996074,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 513,
+      "elapsed": 244.06633215397596,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 539,
+      "elapsed": 253.8826147619402,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 543,
+      "elapsed": 256.0465934620006,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 569,
+      "elapsed": 265.8940430498915,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 580,
+      "elapsed": 269.9575435189763,
+      "kind": "unchanged"
+    },
+    {
+      "line": 586,
+      "elapsed": 272.1297609389294,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 601,
+      "elapsed": 278.93304707692005,
+      "kind": "unchanged"
+    },
+    {
+      "line": 616,
+      "elapsed": 283.73836075898726,
+      "kind": "unchanged"
+    },
+    {
+      "line": 622,
+      "elapsed": 286.18467424600385,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 647,
+      "elapsed": 296.13782433094457,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 670,
+      "elapsed": 306.2358596929116,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 674,
+      "elapsed": 308.33524158096407,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 833,
+      "elapsed": 429.42005708790384,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 850,
+      "elapsed": 437.7575757189188,
+      "kind": "unchanged"
+    },
+    {
+      "line": 949,
+      "elapsed": 496.35169524594676,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 966,
+      "elapsed": 503.5581832618918,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 970,
+      "elapsed": 505.8683665979188,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 983,
+      "elapsed": 512.6841832769569,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 1000,
+      "elapsed": 519.9366219709627,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 1004,
+      "elapsed": 522.2521690150024,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 1030,
+      "elapsed": 533.8458567609778,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 1034,
+      "elapsed": 536.1252225768985,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 1665,
+      "elapsed": 932.6506983069703,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 1682,
+      "elapsed": 940.0307451469125,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 1686,
+      "elapsed": 942.4659173819236,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 1690,
+      "elapsed": 944.8653898629127,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 1716,
+      "elapsed": 956.6772505559493,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 1720,
+      "elapsed": 959.0679973718943,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 1724,
+      "elapsed": 961.4407817709725,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 1750,
+      "elapsed": 973.1117134109372,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 1754,
+      "elapsed": 975.3645773339085,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 1769,
+      "elapsed": 982.3064635839546,
+      "kind": "unchanged"
+    },
+    {
+      "line": 1834,
+      "elapsed": 1017.7960966730025,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 1851,
+      "elapsed": 1025.0791317729745,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 1855,
+      "elapsed": 1027.4611030869419,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 1868,
+      "elapsed": 1034.8748479878996,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 1908,
+      "elapsed": 1055.2822538869223,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 2039,
+      "elapsed": 1131.3853888110025,
+      "kind": "unchanged"
+    },
+    {
+      "line": 2066,
+      "elapsed": 1142.713910934981,
+      "kind": "stale_action_discarded"
+    },
+    {
+      "line": 2112,
+      "elapsed": 1168.621166579891,
+      "kind": "unchanged"
+    },
+    {
+      "line": 2190,
+      "elapsed": 1207.8172386819497,
+      "kind": "stale_action_discarded"
+    }
+  ],
+  "sampling": "First request and every 100th request; first 64 error/stale/navigation-failure events. Counts cover all events. References are 1-based JSONL lines; no duplicate screenshots.",
+  "manual_review": "pending",
+  "status": "completed",
+  "resource_affected": false
+}

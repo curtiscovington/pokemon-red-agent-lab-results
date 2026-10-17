@@ -1,0 +1,81 @@
+{
+  "model": "qwen3.8-flash-next:iq4_nl",
+  "policy": "reactive",
+  "seed": 10004,
+  "block": 5,
+  "duration_seconds": 3600,
+  "navigation": true,
+  "bounded_skills": true,
+  "integrated_controls": true,
+  "persistent_memory": true,
+  "durable_evidence": true,
+  "memory_mode": "evidence",
+  "decision_matrix": true,
+  "objective_controller": true,
+  "action_only": true,
+  "staged_goals": true,
+  "persistent_walk": true,
+  "progress_control": true,
+  "policy_measurements": true,
+  "navigation_revision": "bounded-warp-cycle-recovery-v4-interaction-progress-v2",
+  "run_id": "15-reactive-43112f78",
+  "status": "completed",
+  "actions": 407,
+  "controller_inputs": 1922,
+  "navigation_actions": 94,
+  "navigation_requests": 95,
+  "zero_input_navigation": 0,
+  "stale_actions": 218,
+  "attempts": 626,
+  "invalid": 0,
+  "valid_responses": 626,
+  "errors": 0,
+  "input_tokens": 622168,
+  "output_tokens": 5770,
+  "milestones": {
+    "party_observed": {
+      "elapsed": 127.52328060904983,
+      "value": true,
+      "capture": "frames/000019.png"
+    },
+    "provisional_has_parcel": {
+      "elapsed": 670.6575984770898,
+      "value": true,
+      "capture": "frames/000124.png"
+    },
+    "provisional_has_pokedex": {
+      "elapsed": 1091.7476899320027,
+      "value": true,
+      "capture": "frames/000189.png"
+    }
+  },
+  "load_warmup_seconds": 24.443516207975335,
+  "observed_emulated_frames": 214208,
+  "max_same_position_observations": 67,
+  "elapsed_seconds": 3600.0164626580663,
+  "overshoot_seconds": 0.016462658066302538,
+  "final_evidence": {
+    "party_observed": true,
+    "badges_observed": [],
+    "provisional_has_pokedex": true,
+    "provisional_has_parcel": true,
+    "bag": []
+  },
+  "unique_positions": 545,
+  "valid_action_rate": 1.0,
+  "actions_per_minute": 6.783302313559292,
+  "latency_p50_seconds": 1.8668613890185952,
+  "latency_p95_seconds": 2.3297203939873725,
+  "model_recoveries": 0,
+  "decision_counts": {
+    "accepted": 408,
+    "executed_with_inputs": 407,
+    "dialogue_menu": 308,
+    "healing_objective": 111,
+    "resume_cancel": 26,
+    "battle": 208,
+    "reconsider": 14
+  },
+  "selector": "model",
+  "resource_affected": false
+}

@@ -1,0 +1,82 @@
+{
+  "model": "qwen3.8-flash-next:iq4_nl",
+  "policy": "reactive",
+  "seed": 10014,
+  "block": 15,
+  "duration_seconds": 3600,
+  "navigation": true,
+  "bounded_skills": true,
+  "integrated_controls": true,
+  "persistent_memory": true,
+  "durable_evidence": true,
+  "memory_mode": "evidence",
+  "decision_matrix": true,
+  "objective_controller": true,
+  "action_only": true,
+  "staged_goals": true,
+  "persistent_walk": true,
+  "progress_control": true,
+  "policy_measurements": true,
+  "navigation_revision": "bounded-warp-cycle-recovery-v4-interaction-progress-v2",
+  "run_id": "43-reactive-fe1b6814",
+  "status": "completed",
+  "actions": 590,
+  "controller_inputs": 1332,
+  "navigation_actions": 277,
+  "navigation_requests": 277,
+  "zero_input_navigation": 0,
+  "stale_actions": 47,
+  "attempts": 638,
+  "invalid": 0,
+  "valid_responses": 637,
+  "errors": 0,
+  "input_tokens": 642940,
+  "output_tokens": 7345,
+  "milestones": {
+    "party_observed": {
+      "elapsed": 144.92252728098538,
+      "value": true,
+      "capture": "frames/000023.png"
+    },
+    "provisional_has_parcel": {
+      "elapsed": 531.5093827280216,
+      "value": true,
+      "capture": "frames/000097.png"
+    }
+  },
+  "load_warmup_seconds": 23.75537341996096,
+  "observed_emulated_frames": 214919,
+  "max_same_position_observations": 46,
+  "elapsed_seconds": 3600.012674842961,
+  "overshoot_seconds": 0.012674842961132526,
+  "final_evidence": {
+    "party_observed": true,
+    "badges_observed": [],
+    "provisional_has_pokedex": false,
+    "provisional_has_parcel": true,
+    "bag": [
+      {
+        "id": 70,
+        "item": "Oak's Parcel",
+        "quantity": 1
+      }
+    ]
+  },
+  "unique_positions": 265,
+  "valid_action_rate": 0.9984326018808778,
+  "actions_per_minute": 9.833298712356397,
+  "latency_p50_seconds": 1.955257516936399,
+  "latency_p95_seconds": 2.367177785956301,
+  "model_recoveries": 0,
+  "decision_counts": {
+    "accepted": 590,
+    "executed_with_inputs": 590,
+    "dialogue_menu": 297,
+    "healing_objective": 3,
+    "resume_cancel": 229,
+    "battle": 23,
+    "reconsider": 251
+  },
+  "selector": "model",
+  "resource_affected": false
+}
